@@ -11,16 +11,16 @@ Scripts to:
 - US phone numbers
 - DOB fields
 - greeting names like `Hi John Smith`
-- inline PIN values like `PIN: I67K08`
+- inline PIN values like `PIN: 000K48`
 - split PIN label/value patterns across separate HTML nodes
 - simple multi-line mailing address blocks like:
-  - `Gerald Kemp`
-  - `8926 Dexter`
+  - `John Smith`
+  - `1234 Sesame St`
   - `Detroit, MI 48206`
 - card-tail phrases like:
-  - `card ending in 7207`
-  - `card ending in Visa 7207`
-  - `card ending in Apple Pay Visa 5515`
+  - `card ending in 1234`
+  - `card ending in Visa 1234`
+  - `card ending in Apple Pay Visa 1234`
 
 ## Files
 - `scrub_html_pii_v4.py` – scrubs HTML files in place
